@@ -55,10 +55,6 @@ app.get('/max', async (req,res) => {
   res.status(200).send("wouah impressive change!")
 })
 
-app.get('/romain', async (req,res) => {
-  res.status(200).send("Best specialist in town, how can I  help you sir ?! Anthos")
-})
-
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(
